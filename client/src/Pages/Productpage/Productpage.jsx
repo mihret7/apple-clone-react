@@ -25,7 +25,7 @@ function Productpage() {
 
   // using ready made json file
   useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}youtube.json`)
+    fetch(`${import.meta.env.BASE_URL}iphones.json`)
       .then((res) => res.json())
       .then((data) => {
         const productList = data.products;

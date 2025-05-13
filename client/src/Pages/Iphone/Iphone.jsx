@@ -15,7 +15,7 @@ function Iphone() {
 
   // Using ready made json file
   useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}youtube.json`)
+    fetch(`${import.meta.env.BASE_URL}iphones.json`)
       .then((res) => res.json())
       .then((products) => {
         setProducts(() => products.products);
