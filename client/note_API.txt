@@ -1,0 +1,173 @@
+*******************************************************
+API Integration
+   - Application Programming Interface
+        - Interface - የጋራ መገናኛ ቦታ ---- ኬላ
+   - API is a software/framework that allows your application  to communicate and exchange data with other 
+     applications.
+   - In short, API is an interface with a set of functions/methods/code that developers use to access data from 
+     another application and integrate it into their application.
+   - It is a set of rules and protocols that allows one software application to interact with another.
+   - Example: integrating our App with Gemeni AI or YouTube or Google Map ....
+
+
+
+NB: When you make a request/call using API, it would just return the data with JSON or XML format.
+
+**********************************
+What is JSON
+  - JSON stands for JavaScript Object Notation.
+  - It is a file having JS Object formating (notation).
+  - The standard file type for storing a JSON document in the filesystem is .json.
+  - Why preferred? -- just its simplicity.
+
+
+What does a JSON document look like?
+   1) Surrounded by curly braces {}
+   2) It may contain multiple name/value pairs.
+       - these values can be array [], or nested object {}, method ....
+   Example:
+
+       {
+
+
+                "products": {
+                    "product_1": "iphone_6",
+                    "product_2": "iphone_7"
+                },
+
+
+                "arrayValue": [
+                    {"array1": "value1"},
+                    {"array2": "value2"}
+                ]
+
+       }
+
+For more exmples we can use: https://randomuser.me/api/?format=json
+
+
+
+****************************************************
+Inegrating YouTube using API
+     - Having API Key ....
+         - What is API Key 
+             - unique string used to authenticate an application/user making a request to an API. 
+         
+         
+         - where to get the API key?  
+                ---- now we have to see the documentation
+
+
+
+
+
+
+
+**************************
+How to Construct API Request/call:
+    - NB: we already said -> When we make a request using API, it would just return the data with JSON or XML format.
+      (This means, we make a request)
+    - Our app sends a request to an API and The API responds with data (e.g., user info, weather, etc.)
+    - How we send the request?
+         - through API request URL
+
+
+
+API request URL
+      -An API request URL is like a specially formatted web address that includes:
+                 1) The endpoint (where you're requesting from)
+                 2) Optional query parameters (extra instructions)
+
+
+1) The endpoint
+    - Example: https://example.com/api/users
+    - Other examples from YouTube API:
+          - https://www.googleapis.com/youtube/v3/search
+          - https://www.googleapis.com/youtube/v3/videos
+          - https://www.googleapis.com/youtube/v3/channels
+          
+    - This is the base endpoint — we're asking the server for.
+
+2) query parameters
+     - are extra pieces of information you attach to a URL to modify or filter the data you receive from the API.
+     - They come after the '?' symbol in a URL
+     - Multiple parameters are separated by '&' symbol
+     - parameters order doesn't matter
+     - Examples:
+         - https://api.example.com/users?limit=10&page=2&sort=name
+
+              - in this example: limit,pages and sort are query parameters.
+
+    Where do we get/know the query parameters in our case?
+         -  from the API documentation 
+
+*****************************************
+In our YouTube API Integration example:
+      - Examples:
+            - https://youtube.googleapis.com/youtube/v3/search?key=[YOUR_API_KEY]
+            - listed parameters (we can get from the documentation accordingly):
+                - part
+                - channelId
+                - maxResults
+                - order
+
+Real example: 
+  - Requesting channel information of cnn YouTube channel
+            - https://www.googleapis.com/youtube/v3/channels?key=[YOUR_API_KEY]&part=id&forUsername=cnn
+            - We have used the following query parameters here:
+                 1) key 
+                 2) part 
+                 3) forUsername
+
+            - also we can see acceptable values for the parameters and the result we will see
+                - acceptable values for "key" - string
+                - acceptable values for "part" - id, snippet ...
+                - acceptable values for "order" - date, viewCount ....
+
+NB: We can even copy/paste URLs with query parameters into our browser to test GET APIs!
+
+
+***************************************
+Steps to construct our YouTube API Request:
+    1) having the channel ID using the username.
+         - https://www.googleapis.com/youtube/v3/channels?key=[YOUR_API_KEY]&part=id&forUsername=cnn
+
+         What we used:
+            - base endpoint: https://www.googleapis.com/youtube/v3/channels
+            - key=[YOUR_API_KEY]
+            - part=id
+            - forUsername=cnn
+
+        NB: OR we can get the channel id using: https://commentpicker.com/youtube-channel-id.php
+
+    2) then requesting videos using this channel ID
+         - https://www.googleapis.com/youtube/v3/search?key=${API_KEY}&channelId=${cnn_id}&part=snippet,id&order=date&maxResults=9
+
+         What we used:
+            - base endpoint: https://www.googleapis.com/youtube/v3/search
+            - key=${API_KEY}
+            - channelId=${cnn_id}
+            - part=snippet,id
+            - order=date
+            - maxResults=9
+
+
+
+
+
+***************************************
+JavaScript API Integration (Using fetch):
+    1) What Is fetch()?
+        - fetch() is a built-in JavaScript function for making HTTP requests — like talking to a server or an API.
+        - It is promise-based, When we call fetch(), it returns a Promise
+        - It’s most commonly used to:
+              - Get data (GET)
+              - Send data (POST, PUT, etc.)
+    2) Basic Syntax:
+          fetch(url)
+            .then(response => response.json())  // parse JSON
+            .then(data => console.log(data))    // use the data
+            .catch(error => console.error("Error:", error));
+
+
+

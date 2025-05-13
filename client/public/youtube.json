@@ -1,0 +1,318 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "rN1HtwlJ1hoYAziua28YiD3QYAc",
+  "nextPageToken": "CAkQAA",
+  "regionCode": "ET",
+  "pageInfo": {
+    "totalResults": 255,
+    "resultsPerPage": 9
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "CrZ1Th5DDRwsBGENZbFiK8M5LuA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "GGMhQkHCjxo"
+      },
+      "snippet": {
+        "publishedAt": "2025-05-02T20:10:43Z",
+        "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+        "title": "Hands on with Apple Intelligence | Apple",
+        "description": "Get to know Apple Intelligence, a powerful set of features built into your iPhone, iPad, and Mac, to help you write, express yourself, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/GGMhQkHCjxo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/GGMhQkHCjxo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/GGMhQkHCjxo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Apple",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-05-02T20:10:43Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "GBKjeJs9yJOXFh71zvbH-h6PRQs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "gdR32VJQ6aE"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-24T16:00:08Z",
+        "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+        "title": "iPhone 16 Ceramic Shield | Trust Issues | Apple",
+        "description": "iPhone 16 features the latest-generation Ceramic Shield material which is two times tougher than any smartphone glass. Relax ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gdR32VJQ6aE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gdR32VJQ6aE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gdR32VJQ6aE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Apple",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-24T16:00:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "PPmog8sy7IsH8FDAMcCihZsyCvc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "iL88A5F9V3k"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-21T16:00:19Z",
+        "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+        "title": "Apple Intelligence | Clean Up Photos: Flex | iPhone 16",
+        "description": "With Apple Intelligence, you can now remove distracting objects from your photos with the Clean Up tool. Learn more about ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iL88A5F9V3k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iL88A5F9V3k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iL88A5F9V3k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Apple",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-21T16:00:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "kYcu0UVE0kxKF6A-Ofny0MqBNB8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "90HxEee8s1w"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-16T16:11:36Z",
+        "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+        "title": "Want to see a magic trick? Copy on iPhone, paste on Mac. #Shorts",
+        "description": "When you use Mac and iPhone together, you can do incredible things. Audio Descriptions: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/90HxEee8s1w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/90HxEee8s1w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/90HxEee8s1w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Apple",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-16T16:11:36Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Q5B2dVkK8ShEcDM7dVIFOqVqPuw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "O1fB2RgU4fE"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-16T16:09:48Z",
+        "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+        "title": "Low Glare | Mac does that | Apple",
+        "description": "Bright days? Bring it on. The nano-texture display option for MacBook Pro scatters light to minimize glare and reflections in bright ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/O1fB2RgU4fE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/O1fB2RgU4fE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/O1fB2RgU4fE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Apple",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-16T16:09:48Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "g1rit3QRzOSTltiyeTWMTtyhIMI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Fwu3yFuHYeo"
+      },
+      "snippet": {
+        "publishedAt": "2025-04-16T16:11:12Z",
+        "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+        "title": "Up to 24 hours | Mac does that | Apple",
+        "description": "Lost charger? That's a tomorrow problem when you have up to 24 hours of battery life. Learn more at ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Fwu3yFuHYeo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Fwu3yFuHYeo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Fwu3yFuHYeo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Apple",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-04-16T16:11:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "JfmYbxUjRBDqGzglk7j15UsYDl4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "TXNQ01Sy6Xw"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-26T16:00:26Z",
+        "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+        "title": "Behind the Mac: Editing Severance | Apple",
+        "description": "Warning: This film contains spoilers of Season 2 of the Apple Original show Severance. Director Ben Stiller and lead editor ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/TXNQ01Sy6Xw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/TXNQ01Sy6Xw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/TXNQ01Sy6Xw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Apple",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-26T16:00:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "I8Rtbmiz_q86_U3OdW5F2BOXgFI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "JrhAMzDmfkM"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-26T13:00:36Z",
+        "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+        "title": "The Making of &#39;Someday,&#39; a film by Spike Jonze | AirPods 4 with Active Noise Cancellation | Apple",
+        "description": "Go behind-the-scenes with director Spike Jonze and Pedro Pascal to see how the new AirPods 4 film 'Someday' was brought to ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JrhAMzDmfkM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JrhAMzDmfkM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JrhAMzDmfkM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Apple",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-26T13:00:36Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "lXat8_ZoIka1mhcXxsgPnBH-Q20",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "urTfEEsGHds"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-18T10:29:33Z",
+        "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+        "title": "Someday, by Spike Jonze | AirPods 4 with Active Noise Cancellation",
+        "description": "Experience the magic of AirPods 4 with Active Noise Cancellation in a new film by Spike Jonze, starring Pedro Pascal.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/urTfEEsGHds/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/urTfEEsGHds/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/urTfEEsGHds/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Apple",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-18T10:29:33Z"
+      }
+    }
+  ]
+}
