@@ -10,7 +10,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter basename="/API-and-react-routing-demos">
+    <BrowserRouter basename="/apple-clone-react">
       <App />
     </BrowserRouter>
   </StrictMode>
