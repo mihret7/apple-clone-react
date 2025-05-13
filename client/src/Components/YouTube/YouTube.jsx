@@ -28,7 +28,7 @@ function YouTube() {
        fetch(
          // `https://www.googleapis.com/youtube/v3/search?key=${API_KEY}&channelId=${apple_id}&part=snippet,id&order=${sortBy}&maxResults=9`
 
-        "/youtube.json"
+         `${import.meta.env.BASE_URL}youtube.json`
        )
          .then((response) => response.json())
          .then((data) => {
