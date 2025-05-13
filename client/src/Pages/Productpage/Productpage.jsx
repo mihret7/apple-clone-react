@@ -5,34 +5,34 @@ function Productpage() {
   const { pid } = useParams();
   const [products, setProducts] = useState([]);
 
-// using the database
+// // using the database
+//   useEffect(() => {
+//       fetch("http://localhost:3006/iphones") 
+//       .then((res) => res.json())
+//       .then((data) => {
+//         const productList = data.products;
+//         const singleProduct = productList.filter((x) => {
+//           let product_url = x.product_url
+//           let parts = product_url.split("/").filter(Boolean);
+//           let lastPart = parts[parts.length - 1];
+//           return lastPart === pid}
+//         );
+//         setProducts(singleProduct);
+//       })
+//       .catch((err)=>{console.log(err)})
+//       ;
+//   }, [pid]);
+
+  // using ready made json file
   useEffect(() => {
-      fetch("http://localhost:3006/iphones") 
+    fetch(`${import.meta.env.BASE_URL}youtube.json`)
       .then((res) => res.json())
       .then((data) => {
         const productList = data.products;
-        const singleProduct = productList.filter((x) => {
-          let product_url = x.product_url
-          let parts = product_url.split("/").filter(Boolean);
-          let lastPart = parts[parts.length - 1];
-          return lastPart === pid}
-        );
+        const singleProduct = productList.filter((x) => x.product_url === pid);
         setProducts(singleProduct);
-      })
-      .catch((err)=>{console.log(err)})
-      ;
+      });
   }, [pid]);
-
-  // // using ready made json file
-  // useEffect(() => {
-  //   fetch("/iphones.json")
-  //     .then((res) => res.json())
-  //     .then((data) => {
-  //       const productList = data.products;
-  //       const singleProduct = productList.filter((x) => x.product_url === pid);
-  //       setProducts(singleProduct);
-  //     });
-  // }, [pid]);
 
 console.log(products)
 

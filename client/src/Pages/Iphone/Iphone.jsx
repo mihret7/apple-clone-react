@@ -4,23 +4,23 @@ import { Link } from "react-router-dom";
 function Iphone() {
   const [products, setProducts] = useState([]);
 
-  // using our database
-   useEffect(() => {
-     fetch("http://localhost:3006/iphones") 
-      .then((res) => res.json())
-      .then((products) => {
-        setProducts(() => products.products);
-      });
-  }, []);
-
-  // // Using ready made json file
-  // useEffect(() => {
-  //   fetch("/iphones.json")
+  // // using our database
+  //  useEffect(() => {
+  //    fetch("http://localhost:3006/iphones") 
   //     .then((res) => res.json())
   //     .then((products) => {
   //       setProducts(() => products.products);
   //     });
   // }, []);
+
+  // Using ready made json file
+  useEffect(() => {
+    fetch(`${import.meta.env.BASE_URL}youtube.json`)
+      .then((res) => res.json())
+      .then((products) => {
+        setProducts(() => products.products);
+      });
+  }, []);
 
   console.log(products);
   
@@ -81,7 +81,7 @@ function Iphone() {
                   <div className="links-wrapper">
                     <ul>
                       <li>
-                        <Link to={productPage2}>Learn more</Link>
+                        <Link to={productPage}>Learn more</Link>
                       </li>
                     </ul>
                   </div>
